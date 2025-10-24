@@ -10,50 +10,8 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
   </head>
-
-  <style>
-    body {
-        background-image: url("https://c4.wallpaperflare.com/wallpaper/38/24/38/art-farm-jonathan-landscape-wallpaper-preview.jpg");
-        background-position: center;
-        background-size: cover;
-        margin: 70px;
-    }
-
-    .login {
-      max-width: 700px;
-      margin: 0 auto;
-      padding: 10px;
-      backdrop-filter: blur(10px);
-      border-radius: 20px;
-    }
-
-    h1 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    input {
-      width: 70%;
-      margin-bottom: 20px;
-      box-sizing: border-box;
-      border-radius: 20px;
-    }
-
-    button {
-        margin: auto;
-        width: 50%;
-        display: inline-block;
-        margin-left: 170px;
-    }
-
-    #predict {
-        margin: auto;
-        padding: 20px;
-        text-align: center;
-        color: #fff;
-    }
-  </style>
 
   <body>
     <div class="login">
